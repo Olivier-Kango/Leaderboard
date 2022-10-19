@@ -4,11 +4,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>To do list</title>
+  <title>Leaderboard</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <h1 class="main-title">Leaderboard</h1> 
+  <div class="container">
+    <div class="recent-scores">
+      <h2 class="h-scores">Recent Scores</h2>
+      <button id="button">Refresh</button>
+      <ul class="list-scores"></ul>
+    </div>
+    <div class="add-score">
+      <form>
+        <h2>Add your score</h2>
+        <input
+          type="text"
+          name="title"
+          id="title"
+          placeholder="Your name"
+          class="your-name"
+          required
+        />
+        <br /><br />
+        <input
+          type="text"
+          name="author"
+          id="author"
+          placeholder="Your score"
+          class="your-score"
+          required
+        />
+        <br /><br />
+        <button id="btn">Submit</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
