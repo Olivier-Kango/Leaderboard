@@ -1,14 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do list: add & remove
+# LeaderBoard
 
-> In this project, I implement a Simple To Do List with the CRUD (create, read, update, delete) methods. All the elements of the user interface are fully functional.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
 
 ## Screen Short
 
-My list is a clone of the part of the minimalist project captured in the video below.
-
-[![Capstone intro](https://img.youtube.com/vi/AcUd-_Yjjqg/0.jpg)](https://www.youtube.com/watch?v=AcUd-_Yjjqg)
+  ![leaderboard_wireframe](https://user-images.githubusercontent.com/108806646/196451042-e5fc3138-0c95-411f-b36e-db90eee2dd24.png)
 
 ## Built With
 
@@ -17,7 +15,7 @@ My list is a clone of the part of the minimalist project captured in the video b
 
 ## Live Demo
 
-[Link live demo](https://todolist-by-olk.netlify.app/)
+[Link live demo](https://olivier-kango.github.io/Leaderboard/dist)
 
 To get a local copy up and running follow these simple example steps.
 
@@ -51,7 +49,7 @@ To run this app on your local computer you need the browser (Google Chrome is th
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Olivier-Kango/To-Do-List/issues/new).
+Feel free to check the [issues page](https://github.com/Olivier-Kango/Leaderboard/issues/new).
 
 ## Show your support
 
