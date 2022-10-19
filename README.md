@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Link live demo](https://olivier-kango.github.io/Leaderboard/dist)
+[Link live demo](https://loaderboard.netlify.app/)
 
 To get a local copy up and running follow these simple example steps.
 
