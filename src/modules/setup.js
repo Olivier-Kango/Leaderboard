@@ -7,6 +7,7 @@ export const setupProject = () => {
     const li = document.createElement('li');
     li.innerText = `${user}: ${score}`;
     li.id = index + 1;
+    listScores.style.border = '3px solid black';
     listScores.appendChild(li);
   });
 };
