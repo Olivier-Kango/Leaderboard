@@ -91,4 +91,8 @@ button:hover {
   .recent-scores {
     width: 100%;
   }
+
+  #btn {
+    margin-left: 80%;
+  }
 }
