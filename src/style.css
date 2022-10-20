@@ -76,3 +76,19 @@ button:hover {
   cursor: pointer;
   box-shadow: 5px 5px 0 0;
 }
+
+/* For Mobile */
+@media (max-width: 768px) {
+  .container {
+    display: block;
+  }
+
+  .add-score {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .recent-scores {
+    width: 100%;
+  }
+}
