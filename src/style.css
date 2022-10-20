@@ -41,7 +41,6 @@ button {
 .list-scores {
   grid-column: 1/3;
   width: 100%;
-  border: 3px solid black;
 }
 
 .recent-scores ul {
