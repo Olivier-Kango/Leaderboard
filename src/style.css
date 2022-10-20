@@ -46,6 +46,7 @@ button {
 
 .recent-scores ul {
   padding: 0;
+  height: min-content;
 }
 
 .recent-scores ul li {
@@ -70,4 +71,9 @@ input {
   border: 2px solid black;
   border-radius: 6px;
   padding: 6px 6px;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 0 0;
 }

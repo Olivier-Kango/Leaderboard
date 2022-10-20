@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import _, { add } from 'lodash';
 import './style.css';
-import recentSores from './modules/setup.js';
+import { gameScore, button } from './modules/hit-api.js';
 /* eslint-enable no-unused-vars */
-
-recentSores();
+button.addEventListener('click', gameScore, { once: true });
