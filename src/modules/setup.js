@@ -1,6 +1,6 @@
 export const recentSores = [];
 
-export default function setupProject() {
+export const setupProject = () => {
   recentSores.forEach((elt, index) => {
     const { user, score } = elt;
     const listScores = document.querySelector('.list-scores');
@@ -9,4 +9,4 @@ export default function setupProject() {
     li.id = index + 1;
     listScores.appendChild(li);
   });
-}
+};
