@@ -1,4 +1,4 @@
-import setupProject, { recentSores } from './setup.js';
+import { setupProject, recentSores } from './setup.js';
 
 export const button = document.getElementById('button');
 export const submitButton = document.getElementById('btn');
