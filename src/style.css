@@ -58,7 +58,6 @@ button {
 h2 {
   background: -webkit-linear-gradient(#05d6d9, #f907fd);
   -webkit-background-clip: text;
-  background-clip: unset;
   -webkit-text-fill-color: transparent;
 }
 
