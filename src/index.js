@@ -5,5 +5,3 @@ import {
 
 button.addEventListener('click', gameScore, { once: true });
 submitButton.addEventListener('click', addScore);
-
-document.addEventListener('DOMContentLoaded', gameScore);
