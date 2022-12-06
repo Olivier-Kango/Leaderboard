@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script defer src="/build/runtime.js"></script><script defer src="/build/main.js"></script></head>
 <body>
-  <h1 class="main-title">Leaderboard</h1> 
+  <h1 class="main-title" Heading = "Leaderboard">Leaderboard</h1> 
   <div class="container">
     <div class="recent-scores">
       <h2 class="h-scores">Recent Scores</h2>
@@ -21,23 +21,23 @@
         <h2>Add your score</h2>
         <input
           type="text"
-          name="title"
-          id="title"
+          name="name"
+          id="your-name"
           placeholder="Your name"
           class="your-name"
           required
         />
         <br /><br />
         <input
-          type="text"
-          name="author"
-          id="author"
+          type="number"
+          name="score"
+          id="your-score"
           placeholder="Your score"
           class="your-score"
           required
         />
         <br /><br />
-        <button id="btn">Submit</button>
+        <button id="btn" type="button">Submit</button>
       </form>
     </div>
   </div>

@@ -15,7 +15,6 @@ export const addScore = async () => {
     body: JSON.stringify({ user: yourName.value, score: yourScore.value }),
   });
   const res = await response.json();
-  window.location.reload();
   return res;
 };
 
